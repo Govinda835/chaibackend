@@ -16,11 +16,6 @@ app.get("/youtube",(req,res)=>{
     })
 })
 
-app.get("/twitter",(req,res)=>{
-    res.send({
-        message:"This is twitter...."
-    })
-})
 
 app.listen(process.env.port,()=>{
     console.log(`Example app listening on port ${process.env.port}` );
